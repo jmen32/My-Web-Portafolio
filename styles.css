@@ -11,6 +11,10 @@ header{
 }
 
 /* styling to BG colors and text */
+header > h3{
+    padding-bottom: 20px;
+}
+
 header,
 footer {
     background-color: rgb(56, 55, 54);
@@ -34,9 +38,9 @@ h2 {
 }
 
 h3{
-    margin: 30px;
-    padding-bottom: 20px;
-    font-family: Quicksand;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Koulen', cursive;
 }
 
 /* centers image adds styling and gives width */
