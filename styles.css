@@ -1,0 +1,87 @@
+html{
+    box-sizing: border-box;
+    background-color: #ced5de;
+    font-family: Josefin Sans;
+    text-align: center;
+}
+
+/* exteding header bg to top of page */
+header{
+    padding-top: 5px;
+}
+
+/* styling to BG colors and text */
+header,
+footer {
+    background-color: rgb(56, 55, 54);
+    color: white;
+}
+
+hr{
+    background-color: black;
+    height: 1px;
+    width: 500px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    color: rgb(56, 55, 54);
+}
+
+h3{
+    margin: 30px;
+    padding-bottom: 20px;
+    font-family: Quicksand;
+}
+
+/* centers image adds styling and gives width */
+img{
+    display: block;
+    margin: auto;
+    width: 400px;   
+    border-radius: 25px;
+}
+
+/* used to give a uniform width, center, and align all content */
+.wrapper{
+    text-align: left;
+    margin: auto;
+    width: 500px;
+}
+
+/* indents first line of text where applied */
+.indent{
+    text-indent: 45px;
+}
+
+/* aligns all list items to the left */
+.list{
+    display: inline-block;
+    text-align: left;
+}
+
+/* styles links on webpage after user usage */
+a:link{
+    color: blue;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: orange;
+}
+
+/* gave the footer bigger background */
+footer{
+    padding: 30px;
+}
+
+
